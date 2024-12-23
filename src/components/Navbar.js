@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { NavLink } from "react-router-dom";
+import "../css/header.css";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -38,11 +39,16 @@ export default function Navbar() {
 }
 function Logo() {
   return (
-    <img
-      alt="piano with miryam logo"
-      src="../img/logo.png"
-      className="logo"
-    />
+    <div className="logo-box">
+      <img
+        alt="piano with miryam logo"
+        src="../img/piano logo.png"
+        className="piano logo"
+      />
+      <p className="logo-name">
+        PIANO LESSONS WITH MIRIYAM
+      </p>
+    </div>
   );
 }
 function NavList({ setIsOpen }) {
@@ -69,19 +75,19 @@ function NavList({ setIsOpen }) {
         </li>
         <li>
           <NavLink
-            to="/contact us"
+            to="/faq"
             className="main-nav-link"
             onClick={() => setIsOpen(false)}
           >
-            LESSONS
+            FAQS
           </NavLink>
         </li>
         <li>
           <a
-            href="https://wa.me/917338785700"
+            href="https://wa.me/+917338785700"
             target="_blank"
+            rel="noopener noreferrer"
             className="main-nav-link nav-cta"
-            rel="noreferrer"
             onClick={() => setIsOpen(false)}
           >
             Contact

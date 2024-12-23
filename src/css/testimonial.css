@@ -1,0 +1,64 @@
+:root {
+  --testimonial-main-bg-color: rgb(216, 237, 247);
+  --testimonial-bg-color: #fff;
+  --testimonial-text-color: #7e8b92;
+  --testimonial-highlight-color: #24556e;
+}
+
+.section-testimonial-box {
+  background-color: var(
+    --testimonial-main-bg-color
+  );
+  padding: 4.8rem 0;
+}
+
+.testimonial-box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.testimonial-card {
+  width: 35rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: var(--testimonial-bg-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.4rem;
+}
+
+.testimonial-card .para {
+  width: fit-content;
+}
+
+.testimonial-heading {
+  font-size: 3.2rem;
+  color: var(--testimonial-highlight-color);
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+}
+
+.section-testimonial-box .para {
+  color: var(--testimonial-text-color);
+}
+
+.testimonial-box .cta-btn {
+  font-size: 2rem;
+}
+
+@media (max-width: 944px) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .testimonial-heading {
+    font-size: 2.4rem;
+  }
+}

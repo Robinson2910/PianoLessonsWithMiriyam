@@ -1,72 +1,105 @@
+:root {
+  --header-bg-color: rgb(216, 237, 247);
+  --main-nav-link-color: #24556e;
+  --main-nav-link-hover-color: #123344;
+  --nav-cta-bg-color: #ff6f61;
+  --nav-cta-hover-bg-color: #ff8d7a;
+  --icon-mobile-nav-color: #333;
+}
+
 .header {
-  background: rgb(216, 237, 247);
+  background: var(--header-bg-color);
   margin-bottom: 4.8rem;
 }
+.logo {
+  width: 32px;
+  height: 32px;
+}
+.logo-box {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.logo-name {
+  color: var(--main-nav-link-color);
+  line-height: 1.1;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 .header-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
   max-width: 90%;
   margin: 0 auto;
   padding: 2.4rem 0;
 }
 
-.logo {
+/* .logo {
   width: 28rem;
   height: 3.2rem;
-}
+} */
 
 .main-nav-list {
   display: flex;
   list-style: none;
   gap: 0.8rem;
 }
+
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #24556e;
+  color: var(--main-nav-link-color);
 
   font-weight: 400;
   font-size: 2rem;
-  padding: 0.8rem 1rem;
+  padding: 0.8rem 0;
   transition: all 0.3s;
+  margin-left: 1rem;
 }
 
 .main-nav-list .main-nav-link:hover {
-  color: #123344;
-}
-.main-nav-list .main-nav-link:focus {
-  outline: none;
-  color: #123344;
+  color: var(--main-nav-link-hover-color);
 }
 
-.main-nav-link.active {
-  color: #24556e;
+.main-nav-list .main-nav-link:focus {
+  outline: none;
+  color: var(--main-nav-link-hover-color);
 }
+
+.main-nav-list .main-nav-link.active {
+  color: var(--main-nav-link-color);
+  border-bottom: 1.25px solid
+    var(--main-nav-link-color);
+}
+
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   margin-left: 2rem;
   border-radius: 9px;
+  padding: 0.8rem 1rem;
   color: #fff;
-  background-color: #ff6f61;
+  background-color: var(--nav-cta-bg-color);
   outline: none;
   border: none;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #ff8d7a;
+  background-color: var(--nav-cta-hover-bg-color);
+  outline: none;
+  border: none;
+}
 
-  outline: none;
-  border: none;
-}
 .main-nav-link.nav-cta:focus {
-  background-color: #ff8d7a;
+  background-color: var(--nav-cta-hover-bg-color);
   outline: none;
   border: none;
 }
-/* MOBILE */
+
 .btn-mobile-nav {
   border: none;
   background: none;
@@ -77,64 +110,63 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #333;
+  color: var(--icon-mobile-nav-color);
 }
+
 @media (max-width: 944px) {
   .icon-mobile-nav {
     height: 4.8rem;
     width: 4.8rem;
-    color: #333;
+    color: var(--icon-mobile-nav-color);
     font-size: 32px;
   }
-  .logo {
+
+  /* .logo {
     width: 24rem;
-  }
+  } */
+
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
   }
+
   .main-nav {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(10px);
-    position: absolute;
+    /* -webkit-backdrop-filter: blur(5px); */
+    /* backdrop-filter: blur(10px); */
+
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
     opacity: 0;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
-
-    /* 3) Hide it from screen readers */
     visibility: hidden;
     display: hidden;
   }
+
   .main-nav-link.nav-cta:link,
   .main-nav-link.nav-cta:visited {
     margin-left: 0.8rem;
   }
 
   .nav-open .main-nav {
+    z-index: 1000;
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
     display: flex;
+    background-color: rgb(216, 237, 247);
   }
+
   .icon-mobile-nav[name="close-outline"] {
     display: none;
   }
+
   .nav-open
     .icon-mobile-nav[name="close-outline"] {
     display: block;
@@ -155,13 +187,15 @@
     font-size: 3rem;
   }
 }
+
 @media (max-width: 944px) {
   .header {
     margin-bottom: 6.4rem;
+    /* font-size: 2.2rem; */
   }
 }
 @media (max-width: 544px) {
-  .logo {
-    width: 16rem;
+  .logo-name {
+    font-size: 1.5rem;
   }
 }

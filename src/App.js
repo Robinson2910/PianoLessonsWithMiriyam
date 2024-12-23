@@ -2,29 +2,39 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import Navbar from "./components/Navbar";
+
 import "./css/general.css";
-import "./css/header.css";
-import Hero from "./components/Hero";
+
+import HomePage from "./pages/HomePage";
+
+import AboutPage from "./pages/AboutPage";
+
+import FaqPage from "./pages/FaqPage";
+
 const router = createBrowserRouter([
   {
     element: (
       <>
-        <Navbar />
-        <Hero />
+        {" "}
+        <HomePage />
       </>
     ),
     path: "/",
   },
   {
-    element: <Navbar />,
+    element: (
+      <>
+        <AboutPage />
+      </>
+    ),
     path: "/about us",
   },
   {
-    element: <Navbar />,
-    path: "/contact Us",
+    element: <FaqPage />,
+    path: "/faq",
   },
 ]);
+
 function App() {
   return <RouterProvider router={router} />;
 }

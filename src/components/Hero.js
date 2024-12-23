@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
 import "../css/hero.css";
+
 function Hero() {
   return (
-    <div className="hero ">
-      <div className="hero-content-box \">
-        <p className="subheading margin-bottom-vsmall">
+    <div className="hero section">
+      <div className="hero-content-box ">
+        {/* <p className="subheading margin-bottom-vsmall">
           Now at namma chennai!
-        </p>
+        </p> */}
         <h1 className="hero-heading margin-bottom-vsmall">
-          Piano with Miriyam
+          Piano Lessons With Miriyam
         </h1>
         <p className="para margin-bottom-vsmall">
           Hello, music enthusiasts! I'm Miriyam,
@@ -21,14 +22,21 @@ function Hero() {
           your individual growth.
         </p>
         <div className="button-box">
-          <Link className="cta-btn">
+          <a
+            className="cta-btn"
+            href="https://wa.me/+917338785700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             BEGIN TODAY
+          </a>
+          <Link className="link" to="/about us">
+            ABOUT
           </Link>
-          <Link className="link">ABOUT</Link>
         </div>
       </div>
       <div className="hero-img-box">
-        <img src="./img/hero.png" alt="" />
+        <img src="./img/paino1.png" alt="" />
       </div>
     </div>
   );
