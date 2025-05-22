@@ -1,6 +1,6 @@
 .footer {
   padding: 3.2rem 0;
-  background-color: rgb(216, 237, 247);
+  background-color: var(--color-bg-primary);
 }
 
 .footer-grid {
@@ -26,34 +26,34 @@
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   font-weight: 500;
 }
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   transition: all 0.3s;
   display: inline-block;
 }
 .address {
   font-size: 1.6rem;
-  color: #24556e;
+  color: var(--color-text-primary);
 }
 .contact-col {
   /* display: none; */
 }
 .footer-link:hover,
 .footer-link:active {
-  color: #407995;
+  color: var(--color-primary-light);
 }
 
 .footer-logo-label {
   font-size: 2.8rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   letter-spacing: 1px;
   line-height: 1.2;
 }
@@ -61,7 +61,7 @@
   font-size: 1.4rem;
   font-weight: 300;
   margin-bottom: 3.2rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   letter-spacing: 0.5px;
 }
 @media (max-width: 544px) {

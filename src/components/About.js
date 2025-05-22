@@ -13,27 +13,28 @@ function About() {
             className="about-img-hidden-l"
           />
           <p className="about-description margin-bottom-small">
-            Hello, and welcome! I'm Miriyam,and
-            for over a decade,I've had the
-            privilege of enchanting congregations
-            as a church organist, humbly holding
-            six grades of Trinity certification.
+            Hi there! I’m Miriyam Joseline, a
+            certified piano teacher with over 14
+            years of experience, and I’m thrilled
+            to share the joy of music with you.
           </p>
           <p className="about-description margin-bottom-small">
-            Beyond the keys, my humble mission is
-            to share the art of piano with eager
-            minds, fostering a deep love for
-            music's nuances. In my classes, I aim
-            to cultivate not just piano skills but
-            discipline, dedication, and an
-            enduring passion for the profound joy
-            of musical expression.
+            Music is a beautiful gift that can
+            brighten your days, spark creativity,
+            and bring a sense of peace like
+            nothing else. My lessons are all about
+            helping you build strong skills while
+            making sure you have fun and feel
+            inspired every step of the way.
           </p>
           <p className="about-description margin-bottom-small">
-            Join me in exploring the enchanting
-            world of music, where every keystroke
-            holds the potential to weave tales of
-            emotion, harmony, and inspiration.
+            Whether you’re just picking up the
+            keys for the first time or looking to
+            take your playing to new heights, I’m
+            here to guide you, cheer you on, and
+            celebrate every little victory. Ready
+            to start your musical adventure? Let’s
+            make every note count together!
           </p>
           <a
             className="cta-btn "

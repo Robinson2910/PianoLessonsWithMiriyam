@@ -4,22 +4,24 @@ import "../css/hero.css";
 function Hero() {
   return (
     <div className="hero section">
-      <div className="hero-content-box ">
-        {/* <p className="subheading margin-bottom-vsmall">
-          Now at namma chennai!
-        </p> */}
+      <div className="hero-content-box">
         <h1 className="hero-heading margin-bottom-vsmall">
-          Piano Lessons With Miriyam
+          Hey there, and welcome!
         </h1>
         <p className="para margin-bottom-vsmall">
-          Hello, music enthusiasts! I'm Miriyam,
-          and I invite you to embark on a
-          harmonious journey with me at Piano
-          Lessons with Miriyam. I am dedicated to
-          elevating your piano skills to new
-          heights through tailored instruction,
-          passionate mentorship, and a focus on
-          your individual growth.
+          So glad you're here! If you've been
+          dreaming about learning the piano—or
+          picking it up again—you're in the right
+          place. My classes are all about making
+          music fun, inspiring, and something you
+          truly enjoy. We'll take it step by step,
+          build your confidence, and celebrate
+          every little victory along the way.
+        </p>
+        <p className="para margin-bottom-vsmall">
+          Whether you're 6 or 60, there's a seat
+          at the piano waiting for you. Ready to
+          press that first key? Let's begin!
         </p>
         <div className="button-box">
           <a
@@ -36,7 +38,10 @@ function Hero() {
         </div>
       </div>
       <div className="hero-img-box">
-        <img src="./img/paino1.png" alt="" />
+        <img
+          src="./img/paino1.png"
+          alt="Piano lessons with Miriyam"
+        />
       </div>
     </div>
   );

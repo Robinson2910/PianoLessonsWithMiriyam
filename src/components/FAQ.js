@@ -8,33 +8,37 @@ const faqData = {
   faqItems: [
     {
       question:
-        "How often should I practice the piano??",
+        "Do you offer both online and offline piano lessons?",
       answer:
-        "Regular practice is key to improvement. Aim for at least 20-30 minutes a day, gradually increasing as you become more comfortable with your playing.",
+        "Yes, I offer both online and offline lessons to suit your preference.",
+    },
+    {
+      question: "What skill levels do you teach?",
+      answer:
+        "I teach all levels—from beginners to advanced players.",
     },
     {
       question:
-        "Do I need any prior musical experience to join the piano class?",
+        "What equipment do I need for online lessons?",
       answer:
-        " No prior experience is required. Our classes cater to beginners as well as those with some musical background. Our instructors adapt lessons to suit individual skill levels.",
+        "You need a piano or keyboard, a device with a camera, and a stable internet connection.",
+    },
+    {
+      question: "How do I sign up for lessons?",
+      answer:
+        "You can contact me directly at +91 - 7338785700, and I'll help you get started.",
     },
     {
       question:
-        "What age is suitable to start learning the piano?",
+        "Can I switch between online and offline lessons?",
       answer:
-        "Generally, children around 7 or 8 years old can start, but there's no upper age limit! Piano lessons can be tailored to any age group, ensuring a rewarding experience for everyone.",
+        "Yes, you can switch anytime based on what works best for you.",
     },
     {
       question:
-        "Do I need to own a piano before starting the class?",
+        "Do you prepare students for grade examinations?",
       answer:
-        "While having a piano or keyboard at home is beneficial for regular practice, it's not immediately necessary. Many students begin with a keyboard and progress to an acoustic piano later.",
-    },
-    {
-      question:
-        "How long will it take to become proficient in playing the piano?",
-      answer:
-        "Proficiency varies from person to person and depends on practice consistency. Regular practice combined with attentive learning usually leads to noticeable progress within a few months.",
+        "Yes, I guide and prepare students who wish to take piano grade exams",
     },
   ],
   answerBoxHeading: "Answer",

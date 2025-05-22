@@ -24,12 +24,12 @@
 }
 .about-heading {
   font-size: 4.8rem;
-  color: #24556e;
+  color: var(--color-text-primary);
 }
 .about-description {
   font-size: 2rem;
   line-height: 1.5;
-  color: #24556e;
+  color: var(--color-text-primary);
 }
 .section--about .cta-btn {
   padding: 1rem 2rem;

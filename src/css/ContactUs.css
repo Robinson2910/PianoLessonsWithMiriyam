@@ -5,16 +5,16 @@
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   transition: all 0.3s;
   display: inline-block;
 }
 .footer-link:hover,
 .footer-link:active {
-  color: #407995;
+  color: var(--color-primary-light);
 }
 .contact-us-heading {
-  color: #24556e;
+  color: var(--color-text-primary);
   font-size: 3.2rem;
   margin-bottom: 6.4rem;
   text-align: center;
@@ -49,13 +49,13 @@
   /* font-size: 40px; */
   height: 3rem;
   width: 3rem;
-  color: #24556e;
+  color: var(--color-icon-primary);
   padding: 1.6rem;
-  background-color: rgb(216, 237, 247);
+  background-color: var(--color-bg-primary);
   border-radius: 50%;
 }
 .item-box .subheading {
-  color: #24556e;
+  color: var(--color-text-primary);
   font-size: 1.6;
   font-weight: 600;
   margin-bottom: 1rem;

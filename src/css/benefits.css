@@ -25,7 +25,7 @@
 .benefits-heading {
   font-size: 2.6rem;
   text-transform: uppercase;
-  color: #24556e;
+  color: var(--color-text-primary);
   font-weight: 400;
   margin-bottom: 10.6rem;
   line-height: 1.4;
@@ -35,7 +35,7 @@
 .benefit-heading {
   font-size: 2rem;
   text-transform: uppercase;
-  color: #24556e;
+  color: var(--color-text-primary);
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
@@ -80,7 +80,7 @@
   .benefits-heading {
     font-size: 2.4rem;
     text-transform: uppercase;
-    color: #24556e;
+    color: var(--color-text-primary);
     font-weight: 400;
     margin-bottom: 6rem;
     line-height: 1.4;

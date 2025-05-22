@@ -83,6 +83,24 @@ function NavList({ setIsOpen }) {
           </NavLink>
         </li>
         <li>
+          <NavLink
+            to="/policies"
+            className="main-nav-link"
+            onClick={() => setIsOpen(false)}
+          >
+            POLICIES
+          </NavLink>
+        </li>
+        {/* <li>
+          <NavLink
+            to="/policies"
+            className="main-nav-link"
+            onClick={() => setIsOpen(false)}
+          >
+            POLICIES
+          </NavLink>
+        </li> */}
+        <li>
           <a
             href="https://wa.me/+917338785700"
             target="_blank"

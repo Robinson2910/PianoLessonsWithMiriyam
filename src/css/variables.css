@@ -1,0 +1,27 @@
+:root {
+  /* Primary Colors */
+  --color-primary: #24556e;
+  --color-primary-light: #407995;
+  --color-primary-lighter: #4d99b3;
+
+  /* Secondary Colors */
+  --color-secondary: #ff6f61;
+  --color-secondary-light: #ff8d7a;
+  --color-secondary-lighter: #ffb07c;
+  --color-secondary-lightest: #ffbfae;
+
+  /* Background Colors */
+  --color-bg-primary: rgb(216, 237, 247);
+  --color-bg-secondary: #e0f1f9;
+  --color-bg-white: #fff;
+
+  /* Text Colors */
+  --color-text-primary: #24556e;
+  --color-text-secondary: #7e8b92;
+  --color-text-tertiary: #868e96;
+  --color-text-dark: #333;
+
+  /* Icon Colors */
+  --color-icon-primary: #24556e;
+  --color-icon-mobile: #333;
+}

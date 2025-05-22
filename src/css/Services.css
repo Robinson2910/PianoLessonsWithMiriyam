@@ -1,10 +1,10 @@
 .section-services {
-  background-color: #e0f1f9;
+  background-color: var(--color-bg-secondary);
   padding: 5.4rem 0 8rem 0;
 }
 .services-heading {
   font-size: 3.2rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   font-weight: 400;
   letter-spacing: 0.75px;
   font-weight: 500;
@@ -26,17 +26,17 @@
   max-width: 35rem;
   flex-direction: column;
   gap: 2.6rem;
-  background-color: rgb(216, 237, 247);
+  background-color: var(--color-bg-primary);
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 
   padding: 2.4rem;
 }
 .card-heading {
-  color: #24556e;
+  color: var(--color-text-primary);
   text-transform: uppercase;
 }
 
 .services-card .para {
-  color: #7e8b92;
+  color: var(--color-text-secondary);
 }

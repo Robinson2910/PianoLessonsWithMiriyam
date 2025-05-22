@@ -11,6 +11,8 @@ import AboutPage from "./pages/AboutPage";
 
 import FaqPage from "./pages/FaqPage";
 
+import PoliciesPage from "./pages/PoliciesPage";
+
 const router = createBrowserRouter([
   {
     element: (
@@ -32,6 +34,10 @@ const router = createBrowserRouter([
   {
     element: <FaqPage />,
     path: "/faq",
+  },
+  {
+    element: <PoliciesPage />,
+    path: "/policies",
   },
 ]);
 

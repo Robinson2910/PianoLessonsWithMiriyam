@@ -7,12 +7,12 @@
 }
 .subheading {
   font-size: 16px;
-  color: #4d99b3;
+  color: var(--color-primary-lighter);
   text-transform: uppercase;
 }
 .hero-heading {
   font-size: 3.2rem;
-  color: #24556e;
+  color: var(--color-text-primary);
 }
 
 .hero img {
@@ -23,7 +23,7 @@
 .para {
   font-size: 1.6rem;
   line-height: 1.5;
-  color: #333;
+  color: var(--color-text-dark);
 }
 .hero-content-box {
   margin-top: 15%;
@@ -38,8 +38,7 @@
 .link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #ffb07c;
-
+  color: var(--color-secondary-lighter);
   font-weight: 400;
   font-size: 1.6rem;
   padding: 0.8rem 1.2rem;
@@ -47,11 +46,11 @@
 }
 
 .link:hover {
-  color: #ffbfae;
+  color: var(--color-secondary-lightest);
 }
 .link:focus {
   outline: none;
-  color: #ffbfae;
+  color: var(--color-secondary-lightest);
 }
 @media (max-width: 944px) {
   html {

@@ -8,23 +8,24 @@
 }
 .pricing-heading {
   font-size: 3.4rem;
-  color: #24556e;
+  color: var(--color-text-primary);
   font-weight: 400;
   letter-spacing: 0.75px;
   font-weight: 500;
 }
 .pricing-card {
-  background-color: red;
+  flex: 1;
   width: 35rem;
   padding: 2.4rem;
-  background-color: rgb(216, 237, 247);
+  background-color: var(--color-bg-primary);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   z-index: 10;
   border-radius: 9px;
+
   /* color: aquamarine; */
 }
 .plan-name {
-  color: #24556e;
+  color: var(--color-text-primary);
   font-weight: 500;
   font-size: 2rem;
   text-transform: uppercase;
@@ -32,16 +33,15 @@
   margin-bottom: 3.2rem;
 }
 .plan-price {
-  color: #24556e;
+  color: var(--color-text-primary);
   font-size: 6.2rem;
   font-weight: 700;
-
   margin-bottom: 1.6rem;
 }
 .plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
-  color: #7e8b92;
+  color: var(--color-text-secondary);
 }
 .plan-list {
   list-style: none;
@@ -59,10 +59,10 @@
 .list-item ion-icon {
   width: 3rem;
   height: 3rem;
-  color: #24556e;
+  color: var(--color-icon-primary);
 }
 .list-item p {
-  color: #24556e;
+  color: var(--color-text-primary);
 }
 .pricing-box {
   display: flex;

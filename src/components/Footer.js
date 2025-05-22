@@ -40,6 +40,14 @@ function Footer() {
                 FAQS
               </Link>
             </li>
+            <li>
+              <Link
+                className="footer-link"
+                to="/policies"
+              >
+                Policies
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="socials-col">
@@ -60,11 +68,11 @@ function Footer() {
             <li>
               <a
                 className="footer-link"
-                href="https://www.instagram.com/piano.lessons.with.miriyam/?utm_source=qr"
+                href="https://wa.me/917338785700"
                 target="_blank"
                 rel="noreferrer"
               >
-                Facebook
+                WhatsApp
               </a>
             </li>
           </ul>

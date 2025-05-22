@@ -3,13 +3,13 @@ import "../css/testimonial.css";
 const testimonials = [
   {
     quote:
-      "Taking piano lessons with Miryam has been an amazing experience. As an adult beginner, I was a bit nervous, but Miryam's patient and encouraging teaching style helped me progress quickly. Her passion for music is contagious, and I look forward to every lesson!",
-    author: "- Robin",
+      "A very passionate teacher and amazing with kids. My daughter has been taking classes online since past 6 to 8 months and she has improved a lot. She really enjoys keyboard and it's amazing to see her attend her classes with interest and passion. Thank you Ms.Miriyam to guide my daughter and urging her to do the best",
+    author: "- Divya ",
   },
   {
     quote:
-      "I've been learning piano with Miryam, and it's been amazing! She makes understanding easy and encourages exploring various musical aspects. Miryam's patience and fun approach enhance the learning experience. I eagerly await each weekly lesson with excitement!",
-    author: "- Jason",
+      "I highly recommend Ms. Miriyam as a piano teacher! My 8-year-old daughter has been taking lessons with her for several months now, and the progress has been amazing. Ms. Miriyam is incredibly patient and dedicated, always taking the time to ensure my daughter understands each concept thoroughly.",
+    author: "- Esther",
   },
 ];
 

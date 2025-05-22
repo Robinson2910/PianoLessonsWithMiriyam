@@ -1,15 +1,7 @@
-:root {
-  --header-bg-color: rgb(216, 237, 247);
-  --main-nav-link-color: #24556e;
-  --main-nav-link-hover-color: #123344;
-  --nav-cta-bg-color: #ff6f61;
-  --nav-cta-hover-bg-color: #ff8d7a;
-  --icon-mobile-nav-color: #333;
-}
-
 .header {
-  background: var(--header-bg-color);
+  background: var(--color-bg-primary);
   margin-bottom: 4.8rem;
+  font-family: "Lato", sans-serif;
 }
 .logo {
   width: 32px;
@@ -21,7 +13,7 @@
   align-items: center;
 }
 .logo-name {
-  color: var(--main-nav-link-color);
+  color: var(--color-text-primary);
   line-height: 1.1;
   font-weight: 700;
   font-size: 2rem;
@@ -52,8 +44,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: var(--main-nav-link-color);
-
+  color: var(--color-text-primary);
   font-weight: 400;
   font-size: 2rem;
   padding: 0.8rem 0;
@@ -62,18 +53,18 @@
 }
 
 .main-nav-list .main-nav-link:hover {
-  color: var(--main-nav-link-hover-color);
+  color: var(--color-primary-light);
 }
 
 .main-nav-list .main-nav-link:focus {
   outline: none;
-  color: var(--main-nav-link-hover-color);
+  color: var(--color-primary-light);
 }
 
 .main-nav-list .main-nav-link.active {
-  color: var(--main-nav-link-color);
+  color: var(--color-text-primary);
   border-bottom: 1.25px solid
-    var(--main-nav-link-color);
+    var(--color-text-primary);
 }
 
 .main-nav-link.nav-cta:link,
@@ -81,21 +72,21 @@
   margin-left: 2rem;
   border-radius: 9px;
   padding: 0.8rem 1rem;
-  color: #fff;
-  background-color: var(--nav-cta-bg-color);
+  color: var(--color-bg-white);
+  background-color: var(--color-secondary);
   outline: none;
   border: none;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: var(--nav-cta-hover-bg-color);
+  background-color: var(--color-secondary-light);
   outline: none;
   border: none;
 }
 
 .main-nav-link.nav-cta:focus {
-  background-color: var(--nav-cta-hover-bg-color);
+  background-color: var(--color-secondary-light);
   outline: none;
   border: none;
 }
@@ -110,7 +101,7 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: var(--icon-mobile-nav-color);
+  color: var(--color-icon-mobile);
 }
 
 @media (max-width: 944px) {
