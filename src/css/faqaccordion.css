@@ -1,57 +1,135 @@
 .accordion-box {
-  /* width: 700px;
-  margin: 100px auto; */
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
 }
 
 .item {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  padding: 2rem 2.4rem;
-  padding-right: 4.8rem;
+  background-color: var(--color-bg-white);
+  padding: 2.4rem;
+  border-radius: 1.2rem;
   cursor: pointer;
-  /* border-top: 4px solid #fff; */
-  /* border-bottom: 4px solid #fff; */
-
   display: grid;
-  /* grid-template-columns: auto 1fr auto; */
   grid-template-columns: 1fr auto;
   column-gap: 2.4rem;
-  row-gap: 3.2rem;
+  row-gap: 2.4rem;
   align-items: center;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s ease;
 }
 
-.title,
+.item:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  line-height: 1.4;
+}
+
 .icon {
   font-size: 2.4rem;
   font-weight: 500;
-  color: var(--color-text-primary);
+  color: var(--color-primary);
+  transition: transform 0.3s ease;
 }
 
 .item .answer-box {
-  /* grid-column: 2 / -1; */
-  padding-bottom: 1.6rem;
-  line-height: 1.6;
   grid-column: 1/-1;
+  padding: 2.4rem;
+  background-color: var(--color-bg-primary);
+  border-radius: 0.8rem;
+  margin-top: 0.8rem;
 }
 
-.content-box ul {
-  color: var(--color-text-tertiary);
-  margin-left: 1.6rem;
-  margin-top: 1.6rem;
+.answer-box-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 1.2rem;
+}
 
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+.answer {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
 }
 
 /* OPEN STATE */
 .open {
-  border-top: 4px solid var(--color-primary);
+  border-left: 4px solid var(--color-primary);
 }
 
-/* .open .number,
-.open .title {
-  color: ;
-} */
+.open .icon {
+  transform: rotate(180deg);
+}
+
+/* Responsive Design */
+@media (max-width: 544px) {
+  .accordion-box {
+    padding: 0 1.6rem;
+    gap: 1.6rem;
+  }
+
+  .item {
+    padding: 2rem;
+    column-gap: 1.6rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .item .answer-box {
+    padding: 1.6rem;
+  }
+
+  .answer-box-heading {
+    font-size: 1.6rem;
+  }
+
+  .answer {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .accordion-box {
+    padding: 0 1.2rem;
+    gap: 1.2rem;
+  }
+
+  .item {
+    padding: 1.6rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .item .answer-box {
+    padding: 1.2rem;
+  }
+
+  .answer-box-heading {
+    font-size: 1.4rem;
+  }
+
+  .answer {
+    font-size: 1.3rem;
+  }
+}
