@@ -1,9 +1,8 @@
-import Benefits from "../components/Benefits";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Pricing from "../components/Pricing";
+
 import Services from "../components/Services";
 import TestimonialBox from "../components/TestimonialBox";
 import ScrollToTop from "../components/ScrollToTop";
