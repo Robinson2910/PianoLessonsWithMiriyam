@@ -45,9 +45,14 @@ function Logo() {
         src="../img/piano logo.png"
         className="piano logo"
       />
-      <p className="logo-name">
-        PIANO LESSONS WITH MIRIYAM
-      </p>
+      <div className="logo-text">
+        <p className="logo-name">
+          PIANO LESSONS WITH MIRIYAM
+        </p>
+        <p className="logo-slogan">
+          Where learning feels like a happy tune
+        </p>
+      </div>
     </div>
   );
 }
