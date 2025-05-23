@@ -49,7 +49,7 @@ function ContactUs() {
         </div>
         <div className="contact-img-box">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5620476595!2d80.22083967381192!3d13.063525412858748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267a630fc5eff%3A0x4906f83b30cc56f4!2sPiano%20Lessons%20With%20Miriyam!5e0!3m2!1sen!2sin!4v1747949349982!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.622700419821!2d80.22462127409771!3d13.059671387263808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52668b65715661%3A0xeb8b60dbdfa4176e!2sS%20Gangaiamman%20Koil%201st%20St%2C%20Choolaimedu%2C%20Chennai%2C%20Tamil%20Nadu%20600094!5e0!3m2!1sen!2sin!4v1747990607886!5m2!1sen!2sin"
             style={{
               width: "100%",
               height: "100%",
