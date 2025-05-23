@@ -73,7 +73,7 @@ function NavList({ setIsOpen }) {
             ABOUT
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/faq"
             className="main-nav-link"
@@ -81,7 +81,7 @@ function NavList({ setIsOpen }) {
           >
             FAQS
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="/policies"

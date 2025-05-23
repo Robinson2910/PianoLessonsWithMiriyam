@@ -8,6 +8,7 @@ import Services from "../components/Services";
 import TestimonialBox from "../components/TestimonialBox";
 import ScrollToTop from "../components/ScrollToTop";
 import useScrollAndIntersectionObserver from "../hooks/useScrollAndIntersectionObserver";
+import FAQ from "../components/FAQ";
 // HomePage.js
 
 const HomePage = () => {
@@ -18,9 +19,10 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <TestimonialBox />
-      <Benefits />
+      <FAQ />
+      {/* <Benefits /> */}
       <Services />
-      <Pricing />
+      {/* <Pricing /> */}
       <ContactUs />
 
       <Footer />

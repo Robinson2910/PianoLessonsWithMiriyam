@@ -6,7 +6,7 @@ function About() {
       <div className="about-container">
         <div className="about-content-box">
           <h1 className="about-heading margin-bottom-small">
-            So, who am I?
+            Know Your Teacher
           </h1>
           <div className="about-text-container">
             <p className="about-description margin-bottom-small">

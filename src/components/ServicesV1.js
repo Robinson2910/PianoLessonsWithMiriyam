@@ -3,7 +3,7 @@ function Services() {
   return (
     <section className="section-services section">
       <h1 className="services-heading text-center margin-bottom-large">
-        Lessons Offered
+        Our Services
       </h1>
       <div className="container services-grid">
         <div className="services-card">
@@ -31,9 +31,9 @@ function Services() {
             className="service-img"
           />
           <p className="para">
-            Guided preparation for ABRSM and
-            Trinity grade examinations
-            (Practical & Theory)
+            Guided preparation for Graded Exams by
+            Trinity College London and Royal
+            Schools of Music (ABRSM)
           </p>
         </div>
         <div className="services-card">

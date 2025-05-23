@@ -8,7 +8,7 @@ function Footer() {
       </p>
 
       <p className="footer-slogan-text container">
-        Harmonizing Your Musical Journey
+        Where learning feels like a happy tune
       </p>
       <div className="container footer-grid">
         <div className="links-col">
